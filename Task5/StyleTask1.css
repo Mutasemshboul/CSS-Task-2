@@ -1,0 +1,25 @@
+body {
+    background-color: #ff7ffe;
+    font-family: Arial, sans-serif;
+  }
+  .container {
+    
+    margin: auto;
+    display: flex;
+  }
+  .column {
+    float: left;
+    width: 20%;
+    margin: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: aliceblue;
+  }
+
+  .scrollable-container {
+    
+    overflow:scroll; 
+    height: 100px;
+    border: 1px solid #ccc; 
+    border: black solid;
+}

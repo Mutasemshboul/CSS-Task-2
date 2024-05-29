@@ -1,0 +1,32 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+.grid-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    border: 20px solid orange;
+}
+
+.grid-item {
+    font-size: 5em;
+    color: white;
+    margin: 0;
+    width: 25%;
+    height: 33.33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}

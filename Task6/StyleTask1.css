@@ -1,0 +1,27 @@
+body, html {
+    margin: 0;
+    height: 100%;
+font-family: Arial, sans-serif; 
+}
+
+.flex-container {
+    display: flex; 
+    height: 100%;
+}
+
+.flex-item {
+    flex: 1; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    color: white; 
+    font-size: 24px; 
+}
+
+#first-part {
+    background-color: #FFA500; 
+}
+
+#second-part {
+    background-color: #0000FF; 
+}
